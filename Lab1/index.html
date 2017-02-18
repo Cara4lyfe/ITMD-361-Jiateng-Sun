@@ -6,46 +6,47 @@
 </head>
 <body>
     <h1>Volunteer Form</h1>
-    <form action="lab3formscript.php">
+    <form action="lab3formscript.php" method="post">
         <fieldset>
             <legend>My Info:</legend>
             First name:<br>
-            <input type="text" name="firstname"><br>
+            <input type="text" name="first_name_field"><br>
             Last name:<br>
-            <input type="text" name="lastname"><br>
+            <input type="text" name="last_name_field"><br>
             Gender:<br>
-            <input type="radio" name="gender" value="male"> Male<br>
-            <input type="radio" name="gender" value="female"> Female<br>
-            <input type="radio" name="gender" value="other" checked> Other<br>
+            <input type="radio" name="gender_field" value="male"> Male<br>
+            <input type="radio" name="gender_field" value="female"> Female<br>
+            <input type="radio" name="gender_field" value="other" checked> Other<br>
             Phone Number:<br>
-            <input type="text" name="firstname"><br>
+            <input type="text" name="phone_field"><br>
             Email:<br>
-            <input type="text" name="lastname"><br>
+            <input type="text" name="email_field"><br>
             Age:<br>
-            <input type="radio" name="age" value="under 18" checked> under 18<br>
-            <input type="radio" name="age" value="18-24"> 18-24<br>
-            <input type="radio" name="age" value="25-34"> 25-34<br>
-            <input type="radio" name="age" value="35-44"> 35-44<br>
-            <input type="radio" name="age" value="45-54"> 45-54<br>
-            <input type="radio" name="age" value="55-64"> 55-64<br>
-            <input type="radio" name="age" value="65 and over"> 65 and over
+            <input type="radio" name="age_field" value="under 18" checked> under 18<br>
+            <input type="radio" name="age_field" value="18-24"> 18-24<br>
+            <input type="radio" name="age_field" value="25-34"> 25-34<br>
+            <input type="radio" name="age_field" value="35-44"> 35-44<br>
+            <input type="radio" name="age_field" value="45-54"> 45-54<br>
+            <input type="radio" name="age_field" value="55-64"> 55-64<br>
+            <input type="radio" name="age_field" value="65 and over"> 65 and over
         </fieldset>
         <fieldset>
             <legend>My Availability:</legend>
             Days Available:<br>
-            <input type="checkbox" name="day" value="Sunday"> Sunday<br>
-            <input type="checkbox" name="day" value="Monday"> Monday<br>
-            <input type="checkbox" name="day" value="Tuesday"> Tuesday<br>
-            <input type="checkbox" name="day" value="Wednesday"> Wednesday<br>
-            <input type="checkbox" name="day" value="Thursday"> Thursday<br>
-            <input type="checkbox" name="day" value="Friday"> Friday<br>
-            <input type="checkbox" name="day" value="Saturday"> Saturday<br>
+            <input type="checkbox" name="available_field" value="Sunday"> Sunday<br>
+            <input type="checkbox" name="available_field" value="Monday"> Monday<br>
+            <input type="checkbox" name="available_field" value="Tuesday"> Tuesday<br>
+            <input type="checkbox" name="available_field" value="Wednesday"> Wednesday<br>
+            <input type="checkbox" name="available_field" value="Thursday"> Thursday<br>
+            <input type="checkbox" name="available_field" value="Friday"> Friday<br>
+            <input type="checkbox" name="available_field" value="Saturday"> Saturday<br>
             <br>
             Any Comments?<br>
-            <textarea rows="6" cols="50" name="comment" form="usrform">
+            <textarea rows="6" cols="50" name="comments_field" form="usrform">
                 Enter text here...
             </textarea>
         </fieldset>
+        <input type="hidden" name="hidden_field" value="jsun39">
         <input type="submit" value="Send Me">
     </form>
 </body>
