@@ -68,14 +68,14 @@ ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    
     background-color: #333333;
 }
 ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+	z-index: 1;
     position: fixed;
     top: 0;
     width: 100%;
@@ -95,4 +95,14 @@ li a {
 
 li a:hover {
     background-color: #111111;
+}
+
+.floatimg {
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    margin-left: -100px; 
+    margin-top: -93px; 
+    box-shadow: 0.5em 0.5em 0.7em #333; 
+    border-radius: 1em;
 }
