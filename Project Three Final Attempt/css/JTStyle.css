@@ -18,9 +18,12 @@ body.classlist{
     position: relative;
     left: 300px;
 }
-.mid{
-    display: block;
-    margin: 0 auto;
+.mid img{
+    position: relative;
+    left: 300px;
+    height: 400px;
+    width: 640px;
+
 }
 .left{
     width: 100px;
