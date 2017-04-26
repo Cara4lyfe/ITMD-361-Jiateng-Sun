@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+div{
+    margin:0 auto;
+    overflow:auto;
+    width:1200px;
+    height:200px;
+}
+
+iframe{
+    align: center;
+    display:block;
+    width: 1280px;
+    height: 720px;
+    frameborder: 0;
+    margin: 0 auto;
+}

@@ -1,0 +1,82 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    background-image: url("http://vignette2.wikia.nocookie.net/tardis/images/5/5f/Sonic_and_psychic_paper.jpeg/revision/latest?cb=20141021210043");
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+.OleoWhite{
+    font: 400 20px/1.3 'Oleo Script', Helvetica, sans-serif;
+    color: white;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+.slider {
+    width: 1024px;
+    margin: 2em auto;
+
+}
+
+.slider-wrapper {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.slide {
+    float: left;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+    opacity: 1;
+}
+
+#main-slider{
+    width: 720px;
+    height: 1280px;
+}
+
+.display {
+    float: left;
+    height: 200px;
+
+    position: relative;
+    width: 200px;
+
+
+    line-height:120px;
+    text-align:center;
+}
+.display img {
+    height: 200px;
+    flex-grow: 1;
+    vertical-align: middle;
+}
+#right{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+#left{
+    float: left;
+    margin: 0 0 10px 10px;
+}
+
+.is-hidden {
+    display: none;
+}
+
+.btn {
+    background: #ccc;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 5px;
+}
+

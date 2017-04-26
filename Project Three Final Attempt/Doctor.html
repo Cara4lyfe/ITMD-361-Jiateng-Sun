@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/Doctor.css">
+
+
+<body>
+<br>
+<button onclick="HideVideo()">Hide/Show Video</button>
+<iframe id="DoctorVideo" width="1280" height="720" src="vid/LongStory.mp4" frameborder="0" allowfullscreen></iframe>
+<br>
+<button onclick="HideShow()">Hide/Show Slide</button>
+<div class="slideshow-container" id="slide">
+    <div class="mySlides fade">
+        <div class="numbertext">1/15</div>
+        <a href="html/doctors/Doctor-all.html">
+            <img src="img/Doctor-Faces.jpeg" style="width:100%">
+        </a>
+        <div class="text">The Doctor</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2/15</div>
+        <a href="html/doctors/Doctor-reg.html">
+            <img src="img/Doctor-Faces2.jpg" style="width:100%">
+        </a>
+        <div class="text">The Doctor</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3/15</div>
+        <a href="html/doctors/Doctor-1.html">
+            <img src="img/Doctor-1.jpg" style="width:100%">
+        </a>
+        <div class="text">The First Doctor</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4/15</div>
+        <a href="html/doctors/Doctor-2.html">
+            <img src="img/Doctor-2.jpg" style="width:100%">
+        </a>
+        <div class="text">The Second Doctor</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">5/15</div>
+        <a href="html/doctors/Doctor-3.html">
+            <img src="img/Doctor-3.jpg" style="width:100%">
+        </a>
+        <div class="text">The Third Doctor</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">6/15</div>
+        <a href="html/doctors/Doctor-4.html">
+            <img src="img/Doctor-4.jpg" style="width:100%">
+        </a>
+        <div class="text">The Fourth Doctor</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">7/15</div>
+        <a href="html/doctors/Doctor-5.html">
+            <img src="img/Doctor-5.jpg" style="width:100%">
+        </a>
+        <div class="text">The Fifth Doctor</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">8/15</div>
+        <a href="html/doctors/Doctor-6.html">
+            <img src="img/Doctor-6.jpg" style="width:100%">
+        </a>
+        <div class="text">The Sixth Doctor</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">9/15</div>
+        <a href="html/doctors/Doctor-7.html">
+            <img src="img/Doctor-7.jpg" style="width:100%">
+        </a>
+        <div class="text">The Seventh Doctor</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">10/15</div>
+        <a href="html/doctors/Doctor-8.html">
+            <img src="img/Doctor-8.jpg" style="width:100%">
+        </a>
+        <div class="text">The Eighth Doctor</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">11/15</div>
+        <a href="html/doctors/Doctor-9.html">
+            <img src="img/Doctor-9.jpg" style="width:100%">
+        </a>
+        <div class="text">The Ninth Doctor</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">12/15</div>
+        <a href="html/doctors/Doctor-10.html">
+            <img src="img/Doctor-10.jpg" style="width:100%">
+        </a>a
+        <div class="text">The Tenth Doctor</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">13/15</div>
+        <a href="html/doctors/Doctor-11.html">
+            <img src="img/Doctor-11.jpg" style="width:100%">
+        </a>
+        <div class="text">The Eleventh Doctor</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">14/15</div>
+        <a href="html/doctors/Doctor-12.html">
+            <img src="img/Doctor-12.jpg" style="width:100%">
+        </a>
+        <div class="text">The Twelfth Doctor</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">15/15</div>
+        <a href="html/doctors/Doctor-War.html">
+            <img src="img/Doctor-War.jpg" style="width:100%">
+        </a>
+        <div class="text">The War Doctor</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center" id="slidedot">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    <span class="dot" onclick="currentSlide(10)"></span>
+    <span class="dot" onclick="currentSlide(11)"></span>
+    <span class="dot" onclick="currentSlide(12)"></span>
+    <span class="dot" onclick="currentSlide(13)"></span>
+    <span class="dot" onclick="currentSlide(14)"></span>
+    <span class="dot" onclick="currentSlide(15)"></span>
+</div>
+
+<script src="js/Doctor.js"></script>
+/* content of intro of Doctor*/
+<br>
+/* content of regeneration */
+
+
+</body>
+</html>
